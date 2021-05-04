@@ -12,6 +12,10 @@ License URI:    http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:    neve
 Tags: blog, custom-logo, e-commerce, rtl-language-support, post-formats, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready, wide-blocks, block-styles
 */
+.site-logo p.site-title {
+  font-weight: 400;
+}
+
 /* TODO: Might not need this no more */
 .has-white-color a {
   color: #FFF !important;
@@ -29,6 +33,7 @@ li {
   margin-bottom: 0.5em;
 }
 
+/* TODO:only take neccesary parts */
 /* TODO - Remove most of it */
 .wpforms-container .wpforms-error-container,
 .wpforms-container noscript.wpforms-error-noscript {
